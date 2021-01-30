@@ -3,7 +3,7 @@ import config from "./config";
 
 (async () => {
   try {
-    const db = await mongoose.connect(process.env.MONGODB_URI, {
+    const db = await mongoose.connect("mongodb+srv://admin:aHT3zW68ZjdGBab@cluster0.rb4qh.mongodb.net/bunnyapi", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
       useFindAndModify: false,
