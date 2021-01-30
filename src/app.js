@@ -7,7 +7,7 @@ import usersRoutes from "./routes/users.routes";
 const app = express();
 
 // Settings
-app.set("port", 80);
+app.set("port", 8080);
 
 //middlewares
 const corsOptions = {};
