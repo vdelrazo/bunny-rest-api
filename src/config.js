@@ -2,5 +2,5 @@ import {config} from "dotenv";
 config();
 
 export default {
-    mongodbURL: process.env.MONGODB_URI || 'mongodb://localhost/tasksapi'
+    mongodbURL: "mongodb+srv://admin:aHT3zW68ZjdGBab@cluster0.rb4qh.mongodb.net/bunnyapi" || 'mongodb://localhost/tasksapi'
 };
