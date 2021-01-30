@@ -1,0 +1,37 @@
+###
+GET http://localhost:3001/api/tasks
+
+###
+POST http://localhost:3001/api/tasks
+Content-Type: application/json
+
+{
+    "description": "Hacer un sitio web version 4",
+    "user_id": "John Troe"
+}
+
+###
+GET http://localhost:3001/api/tasks/John%20Troe
+
+###
+DELETE  http://localhost:3001/api/tasks/6014e56727c77d452c2f1476
+
+###
+PUT http://localhost:3001/api/tasks/6014e56727c77d452c2f1476
+Content-Type: application/json
+
+{
+    "description": "EL cambio si aplica"
+}
+
+
+###
+GET http://localhost:3001/api/users
+
+###
+POST http://localhost:3001/api/users
+Content-Type: application/json
+
+{
+    "name": "Raymond Lopez"
+}
