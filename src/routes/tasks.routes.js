@@ -5,7 +5,7 @@ const routerT = Router();
 
 routerT.get("/", taskController.findAllTasks);
 
-routerT.get("/:user", taskController.findTasksByUser);
+routerT.get("/:id", taskController.findTasksByUser);
 
 routerT.post("/", taskController.createTask);
 

@@ -9,12 +9,12 @@ POST http://localhost:3001/api/tasks
 Content-Type: application/json
 
 {
-    "description": "Hacer un sitio web version 4",
-    "user_id": "John Troe"
+    "description": "Create User task form",
+    "user_id": "6016cb7fbbd7ac00151f2cb1"
 }
 
 ###
-GET http://localhost:3001/api/tasks/John%20Troe
+GET http://localhost:3003/api/tasks/6016cb7fbbd7ac00151f2cb1
 
 ###
 DELETE  http://localhost:3001/api/tasks/6014e56727c77d452c2f1476
@@ -48,7 +48,7 @@ POST https://api-rest-bunny.herokuapp.com/api/users
 Content-Type: application/json
 
 {
-    "name": "Troy Aikman"
+    "name": "James Sorensen"
 }
 
 ###

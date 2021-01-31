@@ -18,7 +18,7 @@ export const findAllTasks = async (req, res) => {
 
 export const findTasksByUser = async (req, res) => {
   try {
-    const tasksByUser = await Task.find({ user_id: req.params.user });
+    const tasksByUser = await Task.find({ user_id: req.params.id });
     res.json(tasksByUser);
   } catch (error) {
     res.status(500).json({
