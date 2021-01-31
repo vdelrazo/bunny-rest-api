@@ -29,7 +29,7 @@ Content-Type: application/json
 
 
 ###
-GET http://localhost:3000/api/users
+GET http://localhost:3001/api/users
 
 ###
 POST http://localhost:3001/api/users
@@ -37,4 +37,24 @@ Content-Type: application/json
 
 {
     "name": "Raymond Lopez"
+}
+
+###
+DELETE  http://localhost:3001/api/users/6015260b3513411f74d13723
+
+
+###
+POST https://api-rest-bunny.herokuapp.com/api/users
+Content-Type: application/json
+
+{
+    "name": "Troy Aikman"
+}
+
+###
+PUT http://localhost:3001/api/users/6016315936a00500152d6078
+Content-Type: application/json
+
+{
+    "name": "Joe Montana"
 }

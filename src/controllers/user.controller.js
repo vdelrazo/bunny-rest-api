@@ -25,3 +25,26 @@ export const createUser = async (req, res) => {
     });
   }
 };
+
+export const deleteUser = async (req, res) => {
+  try {
+    const deletedData = await User.findByIdAndDelete(req.params.id);
+    res.json({ message: `${deletedData.name} was succesfully deleted` });
+  } catch (error) {
+    res.status(500).json({
+      message: error.message || "Something went wrong while deleting the user",
+    });
+  }
+};
+
+export const updateUser = async (req, res) => {
+  try {
+    const updatedUser = await User.findByIdAndUpdate(req.params.id, req.body);
+    res.json({ message: `${updatedUser.name} was succesfully updated` });
+  } catch (error) {
+    res.status(500).json({
+      message: error.message || "Something went wrong while updating the user",
+    });
+  }
+};
+
