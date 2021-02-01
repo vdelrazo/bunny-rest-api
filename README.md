@@ -13,8 +13,8 @@ GET-all tasks         https://api-rest-bunny.herokuapp.com/api/tasks
 
 POST-task             https://api-rest-bunny.herokuapp.com/api/tasks
 ```
-                      Content-Type: application/json                  
-                      Payload example: {"description": "Test", "user_id": "6016315936a00500152d6078", "state": false}
+           Content-Type: application/json                  
+           Payload example: {"description": "Test", "user_id": "6016315936a00500152d6078", "state": false}
 ```
                       
                       
@@ -26,8 +26,8 @@ DELETE-task           https://api-rest-bunny.herokuapp.com/api/tasks/{taskId}
 
 PUT-task              https://api-rest-bunny.herokuapp.com/api/tasks/{taskId}
 ```
-                      Content-Type: application/json
-                      Payload example: {"description": "Delivery task form 1", "state": true}
+            Content-Type: application/json
+            Payload example: {"description": "Delivery task form 1", "state": true}
 ```
 
 
@@ -37,8 +37,8 @@ GET-all users         https://api-rest-bunny.herokuapp.com/api/users
 
 POST-user             https://api-rest-bunny.herokuapp.com/api/users
 ```
-                      Content-Type: application/json
-                      Payload example: {"name": "Raymond Lopez"}
+            Content-Type: application/json
+            Payload example: {"name": "Raymond Lopez"}
 ```
                       
                       
@@ -47,14 +47,14 @@ DELETE-user           https://api-rest-bunny.herokuapp.com/api/users/{userId}
 
 POST-user             https://api-rest-bunny.herokuapp.com/api/users
 ```
-                      Content-Type: application/json
-                      Payload example: {"name": "James Sorensen"}
+             Content-Type: application/json
+             Payload example: {"name": "James Sorensen"}
 ```
                       
                       
 PUT-user              https://api-rest-bunny.herokuapp.com/api/users/{userId}
 ```
-                      Content-Type: application/json
-                      Payload example: {"name": "Joe Montana"}
+             Content-Type: application/json
+             Payload example: {"name": "Joe Montana"}
 ```
 
